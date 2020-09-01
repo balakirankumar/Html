@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="First_page.css">
+<link rel = "icon" href = "icon.jpg" type = "image/x-icon"> 
+<title>Online Shopping </title>
+</head>
+<body style="width:80%;padding-left:10%">
+
+<div class="navbar">
+	<div class="dropdown">
+		<button class="dropbtn">Cart 
+		</button>
+
+	</div>
+	<div class="dropdown">
+		<button class="dropbtn">More 
+		</button>
+    <div class="dropdown-content">
+		<a href="#">Link 1</a>
+		<hr>
+		<a href="#">Link 2</a>
+		<hr>
+		<a href="#">Link 3</a>
+    </div>
+	</div>
+	<div class="dropdown">
+		<button class="dropbtn" >Login 
+		</button>
+    <div class="dropdown-content">
+		<a href="#">Link 1</a>
+		<hr>
+		<a href="#">Link 2</a>
+		<hr>
+		<a href="#">Link 3</a>
+    </div>
+	</div>
+</div>
+<br>
+<div class="navbar" style="background-color:gray;">
+	<div class="dropdown">
+		<button class="dropbtn">Flight 
+		</button>
+    <div class="dropdown-content">
+		<a href="#">Link 1</a>
+		<hr>
+		<a href="#">Link 2</a>
+		<hr>
+		<a href="#">Link 3</a>
+    </div>
+	</div>
+	<div class="dropdown">
+		<button class="dropbtn">Sports,Book & more
+		</button>
+    <div class="dropdown-content">
+		<a href="#">Link 1</a>
+		<hr>
+		<a href="#">Link 2</a>
+		<hr>
+		<a href="#">Link 3</a>
+    </div>
+	</div>
+	<div class="dropdown">
+		<button class="dropbtn">Home & Furniture's 
+		</button>
+    <div class="dropdown-content">
+		<a href="#">Link 1</a>
+		<hr>
+		<a href="#">Link 2</a>
+		<hr>
+		<a href="#">Link 3</a>
+    </div>
+	</div>
+	<div class="dropdown">
+		<button class="dropbtn">Baby & Kid's 
+		</button>
+    <div class="dropdown-content">
+		<a href="#">Link 1</a>
+		<hr>
+		<a href="#">Link 2</a>
+		<hr>
+		<a href="#">Link 3</a>
+    </div>
+	</div>
+	<div class="dropdown">
+		<button class="dropbtn">Women 
+		</button>
+    <div class="dropdown-content">
+		<a href="#">Link 1</a>
+		<hr>
+		<a href="#">Link 2</a>
+		<hr>
+		<a href="#">Link 3</a>
+		
+    </div>
+	</div>
+	<div class="dropdown">
+		<button class="dropbtn">Men 
+		</button>
+    <div class="dropdown-content">
+		<a href="#">Link 1</a>
+		<hr>
+		<a href="#">Link 2</a>
+		<hr>
+		<a href="#">Link 3</a>
+    </div>
+	</div>
+	<div class="dropdown">
+		<button class="dropbtn">Tv's & Appliances
+		</button>
+    <div class="dropdown-content">
+		<a href="#">Link 1</a>
+		<hr>
+		<a href="#">Link 2</a>
+		<hr>
+		<a href="#">Link 3</a>
+    </div>
+	</div>
+	<div class="dropdown">
+		<button class="dropbtn">Electrical
+		</button>
+    <div class="dropdown-content">
+		<a href="#">Link 1</a>
+		<hr>
+		<a href="#">Link 2</a>
+		<hr>
+		<a href="#">Link 3</a>
+		
+    </div>
+	</div>
+</div>
+<br>
+<div class="slide_div">
+<div style="width:100%;height:250px">
+  <a href="#">
+  <img class="mySlides" src="flipkart_1.jpg" style="width:100%;height:250px"></a>
+  <a href="#">
+  <img class="mySlides" src="flipkart_2.jpeg" style="width:100%;height:250px"></a>
+  <a href="#">
+  <img class="mySlides" src="flipkart_3.jpg" alt="speakers" style="width:100%;height:250px"></a>
+</div>
+</div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+<br>
+<div class="super_div">
+	<div class="side_div" style="background:#12ffe3">
+	<h3> Best Offers</h3><hr>
+	<a href="#"><img src="iphone.jpeg" style="width:100%;height:210px;padding-top:5px">
+	<pre >Apple 11 pro & more<br>Flat 10% off</pre></a>
+	</div>
+	<div class="middle_div">
+	<h3 Style="padding-left:15px">Deals Of The Day<h3>
+	<hr>
+	<div class="inner_divs" style="margin-left:30px">
+	<a href= "#" title="Boat Rockerz"><img src="8_1_1.jpeg" alt="Image" >
+	<pre ><i>Headphones & Speakers<br>50% Off</i></pre></a>
+	</div>
+	<div class="inner_divs">
+	<a href= "#" title="Sky bags" ><img src="8_1_2.jpeg"  alt="Image">
+	<pre >Sky bags,Safari,Lavie<br>70% Off</pre></a>
+	</div>
+	<div class="inner_divs">
+	<a href= "#" title="Realme "><img src="8_1_3.jpeg"  alt="Image">
+	<pre >Realme Narozo 10A<br>5000 mah<br>Now at 8999</pre></a>
+	</div>
+	<div class="inner_divs">
+	<a href= "#" title="Television"><img src="8_1_4.jpeg"  alt="Image">
+	<pre >Tv units<br>From 2100<br>Forzza,Zuari & more</pre></a>
+	</div>
+	<div class="inner_divs">
+	<a href= "#" title="Routers"><img src="8_1_5.jpeg"  alt="Image">
+	<pre >Routers<br>From 799<br>Netgear,Tp-link & more</pre></a>
+	</div>
+	<div class="inner_divs">
+	<a href= "#" title="Bags"><img src="8_1_6.jpeg"  alt="Image">
+	<pre >Sky bags<br>Upto 80% Off<br>Backpacks,</pre></a>
+	</div>
+	<div class="inner_divs">
+	<a href= "#" title="Cams"><img src="8_1_7.jpeg"  alt="Image">
+	<pre >Webcams<br>From 440<br>Logictech & more</pre></a>
+	</div>
+	<div class="inner_divs">
+	<a href= "#" title="Boat Rockerz"><img src="8_1_8.jpeg"  alt="Image">
+	<pre >Nike,Skehers & more<br>Upto 50% off<br>Extra 50% for you</pre></a>
+	</div>
+	</div>
+</div>
+<br>
+<div class="super_div" style="background:#c9c9bf">
+<a href="#"><img src="3_1_1.jpeg"style="height:320px;width:31%;float:left;padding:1% 0.5% 1% 1%;margin-left:20px"></a>
+<a href="#"><img src="3_1_2.jpeg"style="height:320px;width:31%;float:left;padding:1% 0.5% 1% 1%"></a>
+<a href="#"><img src="3_1_3.jpeg"style="height:320px;width:31%;float:left;padding:1% 0.5% 1% 1%"></a>
+</div>
+<br>
+<div class="super_div" style="background:#c9c9bf">
+	<div class="middle_div" style="width:100%">
+	<h3 Style="padding-left:15px">Top Offers on Gaming<h3>
+	<hr>
+	<div class="inner_divs" style="margin-left:40px">
+	<a href= "#" title="Lenovo"><img src="8_2_1.jpeg" alt="Image" >
+	<pre >Lenovo Tablets<br>From 4999<br>upto 25.65cm(10 inch)</pre></a>
+	</div>
+	<div class="inner_divs">
+	<a href= "#" title="Gamepads" ><img src="8_2_2.jpeg"  alt="Image">
+	<pre >Gamepads<br>From 599<br>Sony ,Redgear & more</pre></a>
+	</div>
+	<div class="inner_divs">
+	<a href= "#" title="Mouse"><img src="8_2_3.jpeg"  alt="Image">
+	<pre >Gaming Mouse<br>Upto 30% off<br>Hp,Acer & more</pre></a>
+	</div>
+	<div class="inner_divs">
+	<a href= "#" title="Television"><img src="8_1_4.jpeg"  alt="Image">
+	<pre >Tv units<br>From 2100<br>Forzza,Zuari & more</pre></a>
+	</div>
+	<div class="inner_divs">
+	<a href= "#" title="Routers"><img src="8_1_5.jpeg"  alt="Image">
+	<pre >Routers<br>From 799<br>Netgear,Tp-link & more</pre></a>
+	</div>
+	<div class="inner_divs">
+	<a href= "#" title="Bags"><img src="8_1_6.jpeg"  alt="Image">
+	<pre >Sky bags<br>Upto 80% Off<br>Backpacks,</pre></a>
+	</div>
+	<div class="inner_divs">
+	<a href= "#" title="Cams"><img src="8_1_7.jpeg"  alt="Image">
+	<pre >Webcams<br>From 440<br>Logictech & more</pre></a>
+	</div>
+	<div class="inner_divs">
+	<a href= "#" title="Boat Rockerz"><img src="8_1_8.jpeg"  alt="Image">
+	<pre >Nike,Skehers & more<br>Upto 50% off<br>Extra 50% for you</pre></a>
+	</div>
+	</div>
+</div>
+</body>
+</html>
