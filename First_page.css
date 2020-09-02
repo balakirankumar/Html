@@ -1,3 +1,7 @@
+.main_div{
+	width:80%;
+	padding-left:10%
+}
 .super_div{
 	background:white;
 	height:350px;
@@ -69,7 +73,7 @@ body {
 .dropdown {
   float: right;
   overflow: hidden;
-  padding-right:50px;
+  padding-right:100px;
 }
 
 .dropdown .dropbtn {
