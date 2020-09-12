@@ -70,6 +70,27 @@ body {
   text-decoration: none;
 }
 
+.search-container {
+  float: left;
+  padding:5px;
+  margin-left:600px;
+}
+
+.search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+.search-container button:hover {
+  background: #ccc;
+}
+.navbar input[type=text] {
+  border: 1px solid #ccc;  
+}
 .dropdown {
   float: right;
   overflow: hidden;
