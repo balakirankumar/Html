@@ -64,7 +64,7 @@ body {
 .navbar a {
   float: right;
   font-size: 16px;
-  color: white;
+  color:white;
   text-align: center;
   padding-top: 14px;
   padding-right:20px;
@@ -102,7 +102,7 @@ body {
   font-size: 16px;  
   border: none;
   outline: none;
-  color: white;
+  color: black;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
@@ -110,7 +110,7 @@ body {
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  color:blueviolet;
 }
 
 .dropdown-content {
