@@ -1,0 +1,33 @@
+.productview{
+  width: 75%;
+  margin-left: 15%;
+  background-color: white;
+  height: 2000px;
+  padding-top: 30px;
+  float:left;
+}
+.imagediv{
+  width:36%;
+  height: 30%;
+  border:6px solid rgb(204, 201, 201);
+  float:left;
+  margin-left: 20px;
+  margin-right: 5px;
+}
+.imagesmall{
+  width:6%;
+  height:auto;
+  float:left;
+  margin-left: 10px;
+  border:2px solid rgb(121, 116, 116);
+}
+
+.imagesmall img {
+  opacity: 20; 
+  cursor: pointer; 
+}
+
+.imagesmall img:hover {
+  opacity: 10;
+}
+
