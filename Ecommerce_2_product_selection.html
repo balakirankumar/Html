@@ -4,6 +4,23 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="Ecommerce_css_1.css">
 <title>Online Shopping </title>
+<script>
+    function myFunction(imgs) {
+      var expandImg = document.getElementById("expandedImg");
+      expandImg.src = imgs.src;
+      expandImg.parentElement.style.display = "block";
+    }
+    var right=document.getElementById('highlight_services_highlights').style.height;
+    var left=document.getElementById('highlight_services_services').style.height;
+    if(left>right)
+    {
+        document.getElementById('highlight_services_highlights').style.height=left;
+    }
+    else
+    {
+        document.getElementById('highlight_services_services').style.height=right;
+    }
+    </script>
 </head>
 <body style="background-color:rgb(226, 226, 226);">
     <div class="navbar">
@@ -148,16 +165,66 @@
     </div>
         <div class="imagediv">
             <img id="expandedImg"  src="front_view.jpg" style="width:100%;height:100%">
+            <button class="addcart"> <b>ADD TO CART</b></button>
+            <button class="addcart" style=" margin-left: 7px;"> <b>Buy Now</b></button>
         </div>
-     
+        <div class="detail"> 
+            <h3>Beats 500 Wired Headset Gaming Headphone  (Metallic Black, On the Ear)</h3>
+            <div style="height:auto;"><span style="color:rgb(218, 210, 210)"><b style="color:green">3.5</b>
+                <img src="star_logo.jpg" style="width:14px;height:14px;vertical-align:top;"> <a href="#" style="text-decoration:none;color:rgb(218, 210, 210)"> <b>5 Star rating & Review</b></a>
+            </span></div> 
+          <h2  style="text-align:left;float:left;" >₹10000  </h2><h3  style="text-align:left;float:left;margin-left: 2%;color:rgb(182, 173, 173);"><del>₹15000</del></h3> <h2  style="text-align:left;float:left;margin-left:2%;color:green">Flat 31%</h2> 
+          <hr style="clear:both;"/>
+          <h2>Available Offers</h2>
+          <h4><img src="tag.png" alt="tag"  style="vertical-align:middle;width:35px;height:25px;float: left;padding-right: 5px;">Bank Offer10% off on SBI Credit Card, up to ₹1250 <a href="#" style="color:blue;text-decoration:none">T&C</a></h4>
+          <h4><img src="tag.png" alt="tag"  style="vertical-align:middle;width:35px;height:25px;float: left;padding-right: 5px;">Bank Offer5% Unlimited Cashback on Flipkart Axis Bank Credit Card <a href="#" style="color:blue;text-decoration:none">T&C</a></h4>
+          <h4><img src="tag.png" alt="tag"  style="vertical-align:middle;width:35px;height:25px;float: left;padding-right: 5px;">Bank Offer₹50 Off on 1st Prepaid txn with Visa Debit/Credit Card. Min Value ₹600. On Electronics and Grocery<a href="#" style="color:blue;text-decoration:none">T&C</a></h4>
+          <h4><img src="tag.png" alt="tag"  style="vertical-align:middle;width:35px;height:25px;float: left;padding-right: 5px;">No cost EMI ₹1,223/month. Standard EMI also available <a href="#" style="color:blue;text-decoration:none">T&C</a></h4>
+          <h4><img src="tag.png" alt="tag"  style="vertical-align:middle;width:35px;height:25px;float: left;padding-right: 5px;">Partner Offer₹1000 Paytm Cashback for every 1000th user paying with Paytm wallet or Paytm UPI. TnC apply.<a href="#" style="color:blue;text-decoration:none">Know more</a></h4>
+          <h4><img src="tag.png" alt="tag"  style="vertical-align:middle;width:35px;height:25px;float: left;padding-right: 5px;">No cost EMI ₹1,223/month. Standard EMI also available <a href="#" style="color:blue;text-decoration:none">T&C</a></h4>
+          <h4><img src="warranty.png" alt="tag"  style="vertical-align:middle;width:45px;height:30px;float: left;padding-right: 5px;">1 year warranty provided by the manufacturer from date of purchase. Warranty of the Product is Limited to Manufacturing Defects OnlyKnow More<a href="#" style="color:blue;text-decoration:none">T&C</a></h4>
+          <br>
+          <br>
+          <form action="#">
+            <label for="Pincode"><b style="color: rgb(119, 114, 114);">Delivery :</b></label>
+            <input type="text" id="Pincode" name="pincode" placeholder="Enter Delivery Pincode">
+            <input type="submit" value="Submit" onclick="">
+          </form>
+          <br>
+          <div class="highlights_services">
+          <div class="highlights">
+            <dl>
+                <dt><h3><b style="color: rgb(119, 114, 114);">Highlights :</b> </h3></dt>
+                <dd style="display: list-item;margin-left: 29%;">With Mic:Yes</dd> <br>
+                <dd style="display: list-item;margin-left: 29%;">Connector type: 3.5 mm</dd> <br>
+                <dd style="display: list-item;margin-left: 29%;">Driver Unit: 40 mm Bio-cellulose with rubber surround with Leather ear cushion</dd> <br>
+                <dd style="display: list-item;margin-left: 29%;">Virtual 7.1 Surround Sound with Top-of-the-line Cinematic Audio Experience</dd> <br>
+                <dd style="display: list-item;margin-left: 29%;">TrueHarmony 3D Soundscape Technology</dd> <br>
+                <dd style="display: list-item;margin-left: 29%;">3 EQ Modes: Sports, Movie & Music & Retractable Uni-directional Microphone</dd> 
+            </dl>
+          </div>
+        <div class="services">
+            <dl>
+                <dt><h3><b style="color: rgb(119, 114, 114);">Services:</b> </h3></dt>
+                <img src="shield_logo.png" alt="tag"  style="vertical-align:middle;width:20px;height:20px;float: left;">
+                <dd> 1 year warranty provided by the manufacturer from date of purchase. Warranty of the Product is Limited to Manufacturing Defects Only</dd> 
+            </dl>
+        </div>
+        </div>
+          <dl>
+            <dt> <h3><b style="color: rgb(119, 114, 114);padding-right: 60px;">seller</b> Bala's Products 4.5<img src="star_logo.jpg" style="width:20px;height:20px;vertical-align:top"> </h3></dt>
+            <dd style="display: list-item;margin-left: 14%;"> 7 Days Replacement Policy</dd> <br>
+            <dd style="display: list-item;margin-left: 14%;"> GST invoice available</dd><br>
+            <dd style="margin-left: 12.5%;"> View <a href="#" style="text-decoration: none;color: blue;">more sellers</a>  starting from ₹10,999</dd> 
+        </dl>
+        <br>
+        <dl>
+            <dt><h2 style="color: rgb(119, 114, 114);">Description</h2> </dt>
+            <dd style="margin-left: 12.5%;">Feel as if you are amidst an intense game with the aural experience that the Acer Predator Galea 500 Wired Headset has to offer.
+                 Its Pinpoint Audio Precision and the Acer TrueHarmony 3D Soundscape Technology offer a gripping experience while you are gaming.</dd>
+        </dl>
+        </div>
     </div>
-    <script>
-        function myFunction(imgs) {
-          var expandImg = document.getElementById("expandedImg");
-          expandImg.src = imgs.src;
-          expandImg.parentElement.style.display = "block";
-        }
-        </script>
 </body>
 
 </html>
