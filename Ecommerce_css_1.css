@@ -128,7 +128,7 @@ body {
   color:rgb(32, 48, 199)
 }
  .dropdown:hover .dropbtn {
-  color:rgb(255, 196, 4);
+  color:none;
 }
 
 .dropdown-content {
