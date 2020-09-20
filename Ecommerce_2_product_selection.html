@@ -10,16 +10,6 @@
       expandImg.src = imgs.src;
       expandImg.parentElement.style.display = "block";
     }
-    var right=document.getElementById('highlight_services_highlights').style.height;
-    var left=document.getElementById('highlight_services_services').style.height;
-    if(left>right)
-    {
-        document.getElementById('highlight_services_highlights').style.height=left;
-    }
-    else
-    {
-        document.getElementById('highlight_services_services').style.height=right;
-    }
     </script>
 </head>
 <body style="background-color:rgb(226, 226, 226);">
@@ -165,8 +155,8 @@
     </div>
         <div class="imagediv">
             <img id="expandedImg"  src="front_view.jpg" style="width:100%;height:100%">
-            <button class="addcart"> <b>ADD TO CART</b></button>
-            <button class="addcart" style=" margin-left: 7px;"> <b>Buy Now</b></button>
+            <button class="addcart" onclick="#"> <b>ADD TO CART</b></button>
+            <button class="addcart" style=" margin-left: 7px;" onclick="#"> <b>Buy Now</b></button>
         </div>
         <div class="detail"> 
             <h3>Beats 500 Wired Headset Gaming Headphone  (Metallic Black, On the Ear)</h3>
@@ -188,7 +178,7 @@
           <form action="#">
             <label for="Pincode"><b style="color: rgb(119, 114, 114);">Delivery :</b></label>
             <input type="text" id="Pincode" name="pincode" placeholder="Enter Delivery Pincode">
-            <input type="submit" value="Submit" onclick="">
+            <input type="submit" value="Submit" onclick="#">
           </form>
           <br>
           <div class="highlights_services">
