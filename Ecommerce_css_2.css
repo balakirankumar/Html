@@ -1,6 +1,6 @@
 .productview{
   width: 85%;
-  margin-left: 10%;
+  margin-left: 7.5%;
   background-color: white;
   height: 1500px;
   padding-top: 30px;
@@ -85,4 +85,15 @@
   /* background-color:yellow; */
   overflow: auto;
   margin-left: 2%;
+}
+
+.footer {
+   position: relative;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:red;
+   color: white;
+   text-align: left;
+   overflow :auto;
 }
