@@ -131,122 +131,33 @@
 	</div>
 </div>
 <br>
-<div class="main_div">
-<div class="slide_div">
-<div style="width:100%;height:250px">
-  <a href="#">
-  <img class="mySlides" src="flipkart_1.jpg" style="width:100%;height:250px"></a>
-  <a href="#">
-  <img class="mySlides" src="flipkart_2.jpeg" style="width:100%;height:250px"></a>
-  <a href="#">
-  <img class="mySlides" src="flipkart_3.jpg" alt="speakers" style="width:100%;height:250px"></a>
-</div>
-</div>
+<br>
+<br>
 <script>
-var myIndex = 0;
-carousel();
+    function large(imgs) {
+      var expandImg = document.getElementById("expandedImg");
+      expandImg.src = imgs.src;
+      expandImg.parentElement.style.display = "block";
+    }
+    </script>
+<div style=" width: 85%;margin-left: 7.5%;background-color: wheat;float: left;height: auto;border:3px solid red;">
+	<div style="width:35%;height: 40%;background-color: yellowgreen;float: left;border:1px solid rgb(135, 6, 255);">
+		<div style="width: 10%;height: 40%;float: left;background-color: white;">
+			<img src="front_view.jpg" alt="front_view.jpg" style="width: 100%;height: 50px;cursor: pointer;" onclick="large(this);"><hr>
+			<img src="side_view.jpg" alt="front_view.jpg" style="width: 100%;height: 100%;cursor: pointer;" onclick="large(this);"><hr>
+			<img src="front_view.jpg" alt="front_view.jpg" style="width: 100%;height: 100%;cursor: pointer;" onclick="large(this);"><hr>	
+			<img src="front_view.jpg" alt="front_view.jpg" style="width: 100%;height: 100%;cursor: pointer;" onclick="large(this);">
 
-function carousel() {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  myIndex++;
-  if (myIndex > x.length) {myIndex = 1}    
-  x[myIndex-1].style.display = "block";  
-  setTimeout(carousel, 2000); // Change image every 2 seconds
-}
-</script>
-<br>
-<div class="super_div">
-	<div class="side_div" style="background:#12ffe3">
-	<h3> Best Offers</h3><hr>
-	<a href="#" title="APPLE"><img src="iphone.jpeg" style="width:100%;height:210px;padding-top:5px">
-	<pre >Apple 11 pro & more<br>Flat 10% off</pre></a>
-	</div>
-	<div class="middle_div">
-	<h3 Style="padding-left:15px">Deals Of The Day<h3>
-	<hr>
-	<div class="inner_divs" style="margin-left:30px">
-	<a href= "#" title="Boat Rockerz"><img src="8_1_1.jpeg" alt="Image" >
-	<pre ><i>Headphones & Speakers<br>50% Off</i></pre></a>
-	</div>
-	<div class="inner_divs">
-	<a href= "#" title="Sky bags" ><img src="8_1_2.jpeg"  alt="Image">
-	<pre >Sky bags,Safari,Lavie<br>70% Off</pre></a>
-	</div>
-	<div class="inner_divs">
-	<a href= "#" title="Realme "><img src="8_1_3.jpeg"  alt="Image">
-	<pre >Realme Narozo 10A<br>5000 mah<br>Now at 8999</pre></a>
-	</div>
-	<div class="inner_divs">
-	<a href= "#" title="Television"><img src="8_1_4.jpeg"  alt="Image">
-	<pre >Tv units<br>From 2100<br>Forzza,Zuari & more</pre></a>
-	</div>
-	<div class="inner_divs">
-	<a href= "#" title="Routers"><img src="8_1_5.jpeg"  alt="Image">
-	<pre >Routers<br>From 799<br>Netgear,Tp-link & more</pre></a>
-	</div>
-	<div class="inner_divs">
-	<a href= "#" title="Bags"><img src="8_1_6.jpeg"  alt="Image">
-	<pre >Sky bags<br>Upto 80% Off<br>Backpacks,</pre></a>
-	</div>
-	<div class="inner_divs">
-	<a href= "#" title="Cams"><img src="8_1_7.jpeg"  alt="Image">
-	<pre >Webcams<br>From 440<br>Logictech & more</pre></a>
-	</div>
-	<div class="inner_divs">
-	<a href= "#" title="Shoes"><img src="8_1_8.jpeg"  alt="Image">
-	<pre >Nike,Skehers & more<br>Upto 50% off<br>Extra 50% for you</pre></a>
-	</div>
+		</div>
+		<div style="width:80%;height: 40%;float: left;background-color: white;border:3px solid rgb(255, 145, 0);">
+			<img id="expandedImg"  src="front_view.jpg" style="width:100%;height:100%;float: right;">
+		</div>
+	
 	</div>
 </div>
-<br>
-<div class="super_div" >
-<div  style="width:30%;float:left;padding-left:2%"><a href="#"><img src="3_1_1.jpeg"style="height:320px;width:100%;float:left;padding:1% 0.5% 1% 1%;margin-left:10px"></a></div>
-<div  style="width:30%;float:left;padding-left:2%"><a href="#"><img src="3_1_2.jpeg"style="height:320px;width:100%;float:left;padding:1% 0.5% 1% 1%"></a></div>
-<div  style="width:30%;float:left;padding-left:2%"><a href="#"><img src="3_1_3.jpeg"style="height:320px;width:100%;float:right;padding:1% 0.5% 1% 1%"></a></div>
-</div>
-<br>
-<div class="super_div" style="background:#c9c9bf">
-	<div class="middle_div" style="width:100%">
-	<h3 Style="padding-left:15px">Top Offers on Gaming<h3>
-	<hr>
-	<div class="inner_divs" style="margin-left:40px">
-	<a href= "#" title="Lenovo"><img src="8_2_1.jpeg" alt="Image" >
-	<pre >Lenovo Tablets<br>From 4999<br>upto 25.65cm(10 inch)</pre></a>
-	</div>
-	<div class="inner_divs">
-	<a href= "#" title="Gamepads" ><img src="8_2_2.jpeg"  alt="Image">
-	<pre >Gamepads<br>From 599<br>Sony ,Redgear & more</pre></a>
-	</div>
-	<div class="inner_divs">
-	<a href= "#" title="Mouse"><img src="8_2_3.jpeg"  alt="Image">
-	<pre >Gaming Mouse<br>Upto 30% off<br>Hp,Acer & more</pre></a>
-	</div>
-	<div class="inner_divs">
-	<a href= "#" title="Keyboard"><img src="8_2_4.jpg"  alt="Image">
-	<pre >Gaming Keyboards<br>Upto 25% off<br>Hp,Lenovo & more</pre></a>
-	</div>
-	<div class="inner_divs">
-	<a href= "#" title="Gaming kits"><img src="8_2_5.jpg"  alt="Image">
-	<pre >Mobile Gaming kits<br>Under 499<br>Ideal for PUBG & more</pre></a>
-	</div>
-	<div class="inner_divs">
-	<a href= "#" title="Tablets"><img src="8_2_6.jpeg"  alt="Image">
-	<pre >Microsoft Surface Go<br>4GB/64Gb<br>Now at 29999</pre></a>
-	</div>
-	<div class="inner_divs">
-	<a href= "#" title="Headsets"><img src="8_2_7.jpeg"  alt="Image">
-	<pre >Gaming Headsets<br>From 899<br>HyperX,Cosmic Byte & more</pre></a>
-	</div>
-	<div class="inner_divs">
-	<a href= "#" title="Xbox"><img src="8_2_8.jpeg"  alt="Image">
-	<pre >Microsoft Xbox one 1Tb<br>With Tom Clancy's<br>From 21999</pre></a>
-	</div>
-	</div>
-</div>
-</div>
+
+
+
+
 </body>
 </html>
